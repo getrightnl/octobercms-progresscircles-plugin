@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Progress Circle
+
+# Model Form Field configuration
+form: $/getright/progresscircles/models/progresscircle/fields.yaml
+
+# Model Class name
+modelClass: GetRight\ProgressCircles\Models\ProgressCircle
+
+# Default redirect location
+defaultRedirect: getright/progresscircles/progresscircles
+
+# Create page
+create:
+    title: Create Progress Circle
+    redirect: getright/progresscircles/progresscircles/update/:id
+    redirectClose: getright/progresscircles/progresscircles
+
+# Update page
+update:
+    title: Edit Progress Circle
+    redirect: getright/progresscircles/progresscircles
+    redirectClose: getright/progresscircles/progresscircles
+
+# Preview page
+preview:
+    title: Preview Progress Circle

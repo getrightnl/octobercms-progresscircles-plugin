@@ -1,0 +1,26 @@
+{% set circles = __SELF__.circles %}
+
+{% for circle in circles %}
+    <div class="col-xs-12 col-sm-4 circle-columns">
+        <div class="row">
+            <div class="col-xs-12">
+                <div
+                    class="circle"
+                    data-value="{{ circle.value }}"
+                    data-fill="{
+                &quot;color&quot;: &quot;rgba(4, 157, 223, 1)&quot;
+            }"
+                    data-size="600">
+                    <strong></strong>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                <h3 style="color: #06afdf;">{{ circle.title }}</h3>
+                <p>{{ circle.text }}</p>
+            </div>
+        </div>
+
+    </div>
+{% endfor %}

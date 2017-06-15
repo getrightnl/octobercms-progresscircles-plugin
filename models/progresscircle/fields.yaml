@@ -1,0 +1,22 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    id:
+        label: ID
+        disabled: true
+    name:
+        label: Name
+        type: text
+        required: true
+    title:
+        label: Title
+        type: text
+        required: true
+    text:
+        label: Text
+        type: Text
+    value:
+        label: Number of progresscircle (between 0 and 1)
+        type: number

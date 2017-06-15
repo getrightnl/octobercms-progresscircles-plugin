@@ -1,0 +1,7 @@
+1.0.1: First version of ProgressCircles
+1.0.2:
+    - 'Create progresscircle table'
+    - migrations/create_progress_circles_table.php
+1.0.3:
+    - 'Seed progresscircle table'
+    - seeders/SeedProgressCircleTable.php
